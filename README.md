@@ -1,4 +1,5 @@
-# GrayScale50 Transforma a Exibição de Imagens PPM
+# GrayScale50
+# Transforma a Exibição de Imagens PPM
 
 Este repositório contém funções para transformar imagens no formato PPM e exibi-las de várias maneiras no terminal, incluindo conversão para escala de cinza, binarização e exibição de imagens em 50 tons de cinza.
 
@@ -36,6 +37,7 @@ Você precisará de Python e das bibliotecas `numpy` e `matplotlib` para process
 
 ```bash
 pip install numpy matplotlib
+
 2. Carregar e Processar a Imagem
 As funções podem ser usadas para carregar e processar imagens PPM, que devem estar no formato P3 (texto). As funções esperam que a imagem tenha um valor máximo de cor de 255.
 
@@ -45,18 +47,6 @@ Sempre exibir os detalhes
 
 Copiar código
 caminho = 'imagem.ppm'  # Caminho para a sua imagem PPM
-
-# Exibir imagem em escala de cinza
-mostrar_imagem_cinza(caminho)
-
-# Exibir imagem binária
-mostrar_imagem_binaria(caminho)
-
-# Exibir comparativo entre a imagem original, em escala de cinza e binarizada
-mostrar_imagem(caminho)
-
-# Exibir imagem com quadrados ao redor dos pixels
-mostrar_imagem_com_quadrados(caminho)
 
 # Exibir imagem no terminal com 50 tons de cinza
 largura, altura, pixels = ler_imagem_ppm(caminho)
