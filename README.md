@@ -4,6 +4,13 @@
 Este repositório contém funções para transformar imagens no formato PPM e exibi-las de várias maneiras no terminal, incluindo conversão para escala de cinza, binarização e exibição de imagens em 50 tons de cinza.
 
 ---
+## Comparação de Imagens
+Baixe a imagem e teste localmente ou no colab.
+
+**Imagem**
+![Comparação](imagens/comparacao.png)
+**Imagem simulando pixel**
+![Comparação Simulando Pixels](imagens/comparacaosimulandopixels.png)
 
 ## Funcionalidades
 
