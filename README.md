@@ -10,8 +10,9 @@ Baixe a imagem e teste localmente ou no colab.
 Para clonar este repositório em seu computador, utilize o comando abaixo:
 
 ```bash
-git clone https://github.com/Rodolfoxxv/GrayScale50.git
+git clone https://github.com/Rodolfoxxv/GrayScale50.git 
 
+```
 **Imagem**
 ![Comparação](imagens/comparacao.png)
 **Imagem simulando pixel**
