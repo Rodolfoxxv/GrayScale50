@@ -17,7 +17,6 @@ __pycache__/
 
 .ipynb_checkpoints/
 
-*.ppm
 
 ~$*                        
 *.tmp            
@@ -26,5 +25,7 @@ __pycache__/
 
 .DS_Store
 Thumbs.db
+
+.gitignore
 
 
